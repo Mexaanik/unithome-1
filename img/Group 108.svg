@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+  <g id="Group_108" data-name="Group 108" transform="translate(0)">
+    <path id="Path_94" data-name="Path 94" d="M22.6,0h53.79a22.6,22.6,0,0,1,22.6,22.6v53.79a22.6,22.6,0,0,1-22.6,22.6H22.6A22.6,22.6,0,0,1,0,76.392V22.6A22.6,22.6,0,0,1,22.6,0Z" transform="translate(70 0) rotate(45)" fill="#1db4d4"/>
+    <g id="brickwall" transform="translate(40.29 40.29)">
+      <g id="Group_19" data-name="Group 19" transform="translate(0 0)">
+        <g id="Group_18" data-name="Group 18">
+          <path id="Path_36" data-name="Path 36" d="M57.322,0H1.165A1.165,1.165,0,0,0,0,1.165V57.322a1.165,1.165,0,0,0,1.165,1.165H57.322a1.165,1.165,0,0,0,1.165-1.165V1.165A1.165,1.165,0,0,0,57.322,0ZM2.33,2.33H28.117V14.214H2.33ZM41.982,16.544V28.078H16.505V16.544Zm-39.652,0H14.175V28.078H2.33Zm0,13.864H28.117V42.021H2.33ZM14.175,56.157H2.33V44.351H14.175V56.157Zm27.806,0H16.505V44.351H41.982Zm14.175,0H44.312V44.351h3.806a1.165,1.165,0,1,0,0-2.33H30.447V30.409h25.71Zm0-28.078H44.312V16.544H56.157V28.078Zm0-13.865H30.447V2.33h25.71Z" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_21" data-name="Group 21" transform="translate(51.574 42.122)">
+        <g id="Group_20" data-name="Group 20">
+          <path id="Path_37" data-name="Path 37" d="M449.5,367.852h-.658a1.1,1.1,0,0,0,0,2.195h.658a1.1,1.1,0,0,0,0-2.195Z" transform="translate(-447.745 -367.852)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

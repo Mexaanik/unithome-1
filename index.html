@@ -23,19 +23,19 @@
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item nav-item-1">
                             <a href="#" class="nav-link">Типовые проекты</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item nav-item-2">
                             <a href="#" class="nav-link">Индивидуальный проект</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item nav-item-3">
                             <a href="#" class="nav-link">Услуги</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item nav-item-4">
                             <a href="#" class="nav-link">Ипотека и кредит</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item nav-item-5">
                             <a href="#" class="nav-link">Контакты</a>
                         </li>
                         <li class="nav-item">
@@ -67,7 +67,7 @@
     </div>
 </header>
 <section class="block-1">
-    <div class="container">
+    <div class="container container-fluid">
         <div class="row">
             <div class="col">
                 <div class="box-item">
@@ -194,7 +194,7 @@
     </div>
 </section>
 <section class="block-3">
-    <div class="container">
+    <div class="container container-fluid">
         <div class="row">
             <div class="col">
                 <div class="change">
@@ -233,7 +233,7 @@
                         навести уют.
                     </p>
                     <hr>
-                    <p class="bedroom">Cпальня: 2 &#160;&#160; Кухня: 1 &#160;&#160; Котельная: 1 &#160;&#160; Санузел:1 &#160;&#160;Ванная:1</p>
+                    <p class="bedroom">Cпальня: 2 &#160;&#160; Кухня: 1 &#160;&#160; Котельная: 1 &#160;&#160; Санузел: 1 &#160;&#160; Ванная: 1</p>
                     <hr>
                     <div class="slider-button">
                         <button type="button" href="#myModal6" data-toggle="modal">
@@ -276,7 +276,7 @@
                         комфортно обустроить свой домашний быт!
                     </p>
                     <hr>
-                    <p class="bedroom">Cпальня: 5 &#160;&#160; Кухня: 1 &#160;&#160; Котельная: 1 &#160;&#160; Санузел:1 &#160;&#160; Ванная:1</p>
+                    <p class="bedroom">Cпальня: 5&#160;&#160; Кухня: 1&#160;&#160; Котельная: 1&#160;&#160; Санузел:&#160;1&#160;&#160;Ванная: 1</p>
                     <hr>
                     <div class="slider-button">
                         <button type="button" href="#myModal6" data-toggle="modal">
@@ -319,7 +319,7 @@
                         людей, которые не готовы идти на компромисс в выборе между ценой и качеством.
                     </p>
                     <hr>
-                    <p class="bedroom">Cпальня: 4 &#160; Кухня: 1 &#160; Котельная: 1 &#160;Санузел:1 &#160;Ванная:2 &#160;Гостиная:1 &#160;Гардероб:1</p>
+                    <p class="bedroom">Cпальня: 4&#160; Кухня: 1&#160;Котельная: 1&#160;Санузел: 1 &#160; Ванная:&#160;2 &#160; Гостиная: 1&#160;Гардероб: 1</p>
                     <hr>
                     <div class="slider-button">
                         <button type="button" href="#myModal6" data-toggle="modal">
@@ -358,7 +358,7 @@
                 <div class="offer-item">
                     <h4>По описанию</h4>
                     <p>
-                        Опишите параметры вашего идельного дома и получите расчет стоимоти за 2 часа
+                        Опишите параметры вашего идеального дома и получите расчет стоимоти за 2 часа
                     </p>
                     <button type="button" href="#myModal2" data-toggle="modal">
                         Получить бесплатный расчет
@@ -453,6 +453,13 @@
                 </p>
             </div>
         </div>
+        <div class="diamond-group-1">
+            <p>
+                <a href="#myModal1" data-toggle="modal">
+                    <img src="img/Diamond.svg"  height="385" width="315" alt="1">
+                </a>
+            </p>
+        </div>
         <div class="row">
             <div class="col">
                 <div class="bunch"></div>
@@ -539,7 +546,6 @@
                             <div class="footer-btn">
                                 <button type="submit" class="btn btn-primary">Заказать обратный звонок</button>
                             </div>
-
                         </li>
                     </ul>
                 </div>
@@ -550,15 +556,20 @@
 <div class="container">
     <form action="mail.php" method="POST" enctype="multipart/form-data">
         <div id="myModal2" class="modal fade">
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content">
+            <div class="modal-dialog modal-dialog-centered modal-lg ">
+                <div class="modal-content modal-dialog-2">
                     <ul>
                         <li>
+                            <h6>В ближашее время с Вами свяжется
+                                персональный менеджер и ответит на
+                                интересующие вопросы</h6>
+                        </li>
+                        <li>
                             <div class="body-phone">
-                                <input type="text" class="form-control" required id="" name="user_phone" placeholder="Номер телефона...">
+                                <input type="text" class="form-control" required name="user_phone" placeholder="Номер телефона...">
                             </div>
                             <div class="body-param">
-                                <input type="text" name="image_url" placeholder="Параметры дома или ссылка на фотографию...">
+                                <input type="text" name="image_url" placeholder="Параметры дома или ссылка на фото...">
                             </div>
                         </li>
                         <li>
@@ -566,9 +577,7 @@
                                 <label for="uploaded_file">Добавить фотографию</label>
                                 <input style="display: none" id="uploaded_file" type="file" name="uploaded_file">
                             </div>
-                        </li>
-                        <li>
-                            <div class="footer-btn">
+                            <div class="footer-btn-1">
                                 <button type="submit" class="btn btn-primary">Узнать стоимость дома</button>
                             </div>
                         </li>
@@ -595,7 +604,7 @@
                         </li>
                         <li>
                             <div class="body-tel">
-                                <input type="text" class="form-control" id="" required name="user_phone" placeholder="Номер телефона...">
+                                <input type="text" class="form-control"  required name="user_phone" placeholder="Номер телефона...">
                             </div>
                         </li>
                         <li>
@@ -688,7 +697,7 @@
                         </li>
                         <li>
                             <div class="body-tel">
-                                <input type="text" class="form-control" required id="" name="user_phone" placeholder="Номер телефона...">
+                                <input type="text" class="form-control" required  name="user_phone" placeholder="Номер телефона...">
                             </div>
                         </li>
                         <li>

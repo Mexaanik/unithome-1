@@ -98,11 +98,15 @@ $(document).ready(function () {
     var Slider3 = new Slider($('.js-slider-three'));
     Slider3.init();
 
+    var Slider4 = new Slider($('.js-slider-four'));
+    Slider4.init();
+
+
     lightbox.option({
         'resizeDuration': 200,
         'wrapAround': true,
         alwaysShowNavOnTouchDevices:true,
-        albumLabel:"Изображение %1 из %2"
+        albumLabel:""
     });
 
     $('.nav-item-5').on('click', function() {
@@ -122,7 +126,7 @@ $(document).ready(function () {
     });
 
     $('.nav-item-4').on('click', function() {
-        $('html,body').animate({scrollTop:$('.bunch').offset().top+"px"},{duration:1E3});
+        $('html,body').animate({scrollTop:$('.feedback').offset().top+"px"},{duration:1E3});
     });
 
 });

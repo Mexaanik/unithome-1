@@ -19,7 +19,7 @@ $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, 
 $mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
 $mail->setFrom('sstroitelstvo-domov@yandex.ru'); // от кого будет уходить письмо?
-$mail->addAddress('iron.ru@yandex.ru');     // Кому будет уходить письмо
+$mail->addAddress('unit-homes@yandex.ru');     // Кому будет уходить письмо
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
@@ -29,7 +29,7 @@ $mail->addAddress('iron.ru@yandex.ru');     // Кому будет уходит�
     
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = 'Заявка с тестового сайта';
+$mail->Subject = 'Заявка с сайта';
 $mail->Body    = '' .$phone. $uploadfile;
 $mail->AltBody = '';
 if (isset($_FILES['uploaded_file']) && $_FILES['uploaded_file']['error'] == UPLOAD_ERR_OK) {

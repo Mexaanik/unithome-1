@@ -12,9 +12,9 @@
 </head>
 <body>
 <header>
-    <div class="container">
+    <div class="container container-fluid">
         <div class="row">
-            <nav class="navbar navbar-expand-lg bg-white  fixed-top">
+            <nav class="navbar fixed-top navbar-expand-lg bg-white">
                 <a href="#" class="navbar-brand">
                     <img src="img/Group%2012.png" width="61" height="74" alt="logo">
                 </a>
@@ -23,7 +23,7 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     &#9776;
                 </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item nav-item-1">
                             <a href="#" class="nav-link">Типовые проекты</a>
@@ -476,12 +476,27 @@
                 </p>
             </div>
         </div>
-        <div class="diamond-group-1">
-            <p>
-                <a href="#myModal1" data-toggle="modal">
-                    <img src="img/Diamond.svg" height="385" width="315" alt="1">
-                </a>
-            </p>
+        <div class="row">
+            <div class="col">
+                <div class="diamond-group-1">
+                    <p>
+                        <a href="#myModal1" data-toggle="modal">
+                            <img src="img/Diamond.svg" height="385" width="315" alt="1">
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="diamond-group-2">
+                    <p>
+                        <a href="#myModal1" data-toggle="modal">
+                            <img src="img/Diamond-2.svg" height="768" width="628" alt="1">
+                        </a>
+                    </p>
+                </div>
+            </div>
         </div>
         <div class="row">
             <div class="col">
@@ -511,6 +526,7 @@
         <div class="row">
             <div class="col">
                 <form action="mail.php" method="POST">
+                    <div class="cont-line"><div></div></div>
                     <div class="question">
                         <h4>Остались вопросы?</h4>
                         <p>
@@ -567,7 +583,7 @@
                         </li>
                         <li>
                             <div class="body-tel">
-                                <input type="text" class="form-control" required id="" name="user_phone"
+                                <input type="text" class="form-control" required name="user_phone"
                                        placeholder="Номер телефона...">
                             </div>
                         </li>
@@ -666,7 +682,7 @@
                         </li>
                         <li>
                             <div class="body-tel">
-                                <input type="text" class="form-control" id="" required name="user_phone"
+                                <input type="text" class="form-control" required name="user_phone"
                                        placeholder="Номер телефона...">
                             </div>
                         </li>
@@ -752,5 +768,4 @@
         crossorigin="anonymous"></script>
 <script src="js/lightbox.js"></script>
 <script src="js/site.js"></script>
-<script src="js/main.js"></script>
 </html>

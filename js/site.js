@@ -105,30 +105,36 @@ $(document).ready(function () {
     lightbox.option({
         'resizeDuration': 200,
         'wrapAround': true,
-        alwaysShowNavOnTouchDevices:true,
-        albumLabel:""
+        alwaysShowNavOnTouchDevices: true,
+        albumLabel: ""
     });
 
-    $('.nav-item-5').on('click', function() {
-        $('html,body').animate({scrollTop:$('.block-5').offset().top+"px"},{duration:1E3});
+    $('.nav-item-5').on('click', function () {
+        $('html,body').animate({scrollTop: $('.block-5').offset().top + "px"}, {duration: 1E3});
     });
 
-    $('.nav-item-1').on('click', function() {
-        $('html,body').animate({scrollTop:$('.block-3').offset().top+"px"},{duration:1E3});
+    $('.nav-item-1').on('click', function () {
+        $('html,body').animate({scrollTop: $('.block-3').offset().top - 80 + "px"}, {duration: 1E3});
     });
 
-    $('.nav-item-2').on('click', function() {
-        $('html,body').animate({scrollTop:$('.block-4').offset().top+"px"},{duration:1E3});
+    $('.nav-item-2').on('click', function () {
+        $('html,body').animate({scrollTop: $('.block-4').offset().top - 100 + "px"}, {duration: 1E3});
     });
 
-    $('.nav-item-3').on('click', function() {
-        $('html,body').animate({scrollTop:$('.work-item').offset().top+"px"},{duration:1E3});
+    $('.nav-item-3').on('click', function () {
+        $('html,body').animate({scrollTop: $('.work-item').offset().top - 100 + "px"}, {duration: 1E3});
     });
 
-    $('.nav-item-4').on('click', function() {
-        $('html,body').animate({scrollTop:$('.feedback').offset().top+"px"},{duration:1E3});
+    $('.nav-item-4').on('click', function () {
+        $('html,body').animate({scrollTop: $('.feedback').offset().top - 150 + "px"}, {duration: 1E3});
     });
 
+    $(function(){
+        var navMain = $(".navbar-collapse");
+        navMain.on("click", "a", null, function (){
+            navMain.collapse('hide');
+        });
+    });
 });
 
 

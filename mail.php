@@ -40,7 +40,7 @@ $tmpFileUrl = null;
 if (isset($_POST['image_url']) && !empty($_POST['image_url'])) {
     $imageUrl = $_POST['image_url'];
     $imageData = pathinfo($imageUrl);
-    
+
     if (isset($imageData['extension']) && !empty($imageData['extension'])) {
         if (copy($_POST['image_url'], 'temp/'.$imageData['basename'])) {
             $mail->AddAttachment('temp/'.$imageData['basename'], $imageData['basename']);

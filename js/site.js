@@ -101,6 +101,9 @@ $(document).ready(function () {
     var Slider4 = new Slider($('.js-slider-four'));
     Slider4.init();
 
+    var Slider5 = new Slider($('.js-slider-five'));
+    Slider5.init();
+
 
     lightbox.option({
         'resizeDuration': 200,
@@ -129,9 +132,9 @@ $(document).ready(function () {
         $('html,body').animate({scrollTop: $('.feedback').offset().top - 150 + "px"}, {duration: 1E3});
     });
 
-    $(function(){
+    $(function () {
         var navMain = $(".navbar-collapse");
-        navMain.on("click", "a", null, function (){
+        navMain.on("click", "a", null, function () {
             navMain.collapse('hide');
         });
     });

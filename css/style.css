@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background: url('../img/Group102.png') no-repeat top;
+    background: url('../img/Group102.png') no-repeat bottom;
     height: 950px;
     margin-bottom: 140px;
 
@@ -747,7 +747,7 @@ input::-webkit-input-placeholder {
 @media screen and (min-width: 1150px) and (max-width: 1640px) {
 
     header {
-        background: url('../img/Group102.png') no-repeat top/cover;
+        background: url('../img/Group102.png') no-repeat bottom/cover;
         height: 835px;
     }
 
@@ -925,7 +925,7 @@ input::-webkit-input-placeholder {
     }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1149px) {
+@media screen and (min-width: 1084px) and (max-width: 1149px) {
 
     header {
         background: url(../img/Group102.png) no-repeat top/cover;
@@ -983,7 +983,7 @@ input::-webkit-input-placeholder {
     }
 
     .block-2 {
-        height: 780px;
+        height: 580px;
         padding: 0;
     }
 
@@ -1009,8 +1009,8 @@ input::-webkit-input-placeholder {
 
     .block-2 .ipad-slider {
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .block-2 .ipad-slider p {
@@ -1079,10 +1079,9 @@ input::-webkit-input-placeholder {
         display: none;
     }
 
-
     #block-for-slider {
-        width: 302px;
-        margin: 40px 0 40px 0;
+        width: 80%;
+        margin: 40px auto;
     }
 
     .block-4 {
@@ -1098,7 +1097,7 @@ input::-webkit-input-placeholder {
 
     .block-4 .offer-item {
         width: 100%;
-        height: 190px;
+        height: 100%;
         margin: 40px 0 0 0;
         padding: 0;
     }
@@ -1248,7 +1247,7 @@ input::-webkit-input-placeholder {
     }
 }
 
-@media screen and (min-width: 767px) and (max-width: 1023px) {
+@media screen and (min-width: 767px) and (max-width: 1083px) {
 
     header {
         background: url('../img/Group102.png') no-repeat top/cover;
@@ -1412,8 +1411,8 @@ input::-webkit-input-placeholder {
 
 
     #block-for-slider {
-        width: 302px;
-        margin: 40px 0 20px 0;
+        width: 80%;
+        margin: 40px auto;
     }
 
     .block-4 {
@@ -1429,7 +1428,7 @@ input::-webkit-input-placeholder {
 
     .block-4 .offer-item {
         width: 100%;
-        height: 190px;
+        height: 100%;
         margin: 40px 0 0 0;
         padding: 0;
     }
@@ -1441,7 +1440,7 @@ input::-webkit-input-placeholder {
     }
 
     .block-4 .offer-item p {
-        font-size: 12px;
+        font-size: 18px;
         padding: 10px 30px 0 20px;
     }
 
@@ -1459,7 +1458,6 @@ input::-webkit-input-placeholder {
     }
 
     .block-4 .work-item {
-
         margin: 150px auto 50px auto;
         padding: 0;
         width: 300px;
@@ -1551,8 +1549,8 @@ input::-webkit-input-placeholder {
 
     .block-5 {
         background: url('../img/Group 1123.png') no-repeat top;
-        height: 270px;
-        margin-top: 700px;
+        height: 230px;
+        margin-top: 740px;
     }
 
     .block-5 .adress {
